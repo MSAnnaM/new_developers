@@ -14,13 +14,16 @@
 @import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --white-theme: #fff;
+  --main-theme: #a1c487;
+  --light-theme: #eaf7e5;
+  --support-theme: #faf3e7;
+  --btn: #fc8a11;
+  --textnicons: #141414;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  font-family: DS Sans, sans-serif;
+  color: var(--textnicons);
+  background-color: var(--white-theme);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
