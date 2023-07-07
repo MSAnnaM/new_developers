@@ -1,0 +1,14 @@
+:root {
+  --white-theme: #fff;
+  --main-theme: #a1c487;
+  --light-theme: #eaf7e5;
+  --support-theme: #faf3e7;
+  --btn: #fc8a11;
+  --text-icons: #141414;
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+}
