@@ -1,1 +1,33 @@
+.header {
+  padding: 13px 20px;
+  display: flex;
+  align-items: center;
+}
 
+.header-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.header-svg {
+  margin-right: 8px;
+}
+
+.header-title {
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+
+.header-btn {
+  background-color: inherit;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
