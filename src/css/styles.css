@@ -19,10 +19,10 @@
   --light-theme: #eaf7e5;
   --support-theme: #faf3e7;
   --btn: #fc8a11;
-  --textnicons: #141414;
+  --text-icons: #141414;
 
   font-family: DS Sans, sans-serif;
-  color: var(--textnicons);
+  color: var(--text-icons);
   background-color: var(--white-theme);
 
   font-synthesis: none;
