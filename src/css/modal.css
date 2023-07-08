@@ -92,6 +92,10 @@
   margin-left: auto;
 }
 
+.check-icon {
+  fill: rgba(161, 196, 135, 1);
+}
+
 .decstop-img {
   display: none;
 }
