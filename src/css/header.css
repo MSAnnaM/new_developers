@@ -4,7 +4,7 @@
   }
 }
 
-.header-nav {
+.header-list {
   display: none;
 }
 
@@ -46,6 +46,7 @@
   width: 24px;
   height: 24px;
   right: 0;
+  padding: 0;
 }
 
 .header-modal-open {
@@ -53,6 +54,7 @@
 }
 .header-shop {
   display: none;
+  padding: 0;
 }
 
 /* -------------TABLET----------- */
@@ -63,24 +65,25 @@
 
   .header {
     padding: 16px 32px;
-    justify-content: unset;
+    flex-wrap: nowrap;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
   }
 
   .header-nav {
-    display: unset;
+    display: flex;
+    gap: 86px;
   }
 
   .header-list {
+    display: unset;
     display: flex;
     gap: 14px;
   }
 
   .header-item {
     color: var(#141414);
-
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -95,10 +98,6 @@
     margin-right: 0;
   }
 
-  .header-icon {
-    margin-left: 86px;
-  }
-
   .header-btn {
     display: none;
   }
@@ -111,4 +110,24 @@
 
 /* ------------------------DESKTOP------------- */
 @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .header {
+    padding: 13px 32px;
+  }
+
+  .header-list {
+    gap: 20px;
+  }
+
+  .header-nav {
+    gap: 308px;
+  }
+
+  .icon-shop {
+    width: 24px;
+    height: 24px;
+  }
 }
