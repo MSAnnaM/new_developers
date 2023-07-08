@@ -1,89 +1,17 @@
-:root {
-    --works-step: #FAF3E7;
-    --subtitle-color: #141414;
-    
-  }
-  
-  *,
-  ::before,
-  ::after {
-      box-sizing: border-box;
-  }
-  
-  @font-face {
-    font-family: 'DM Sans', sans-serif;
-    src: url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
-  }
 
-  body {
-    font-family: DS Sans, sans-serif;
-    color: var(--text-icons);
-    background-color: var(--white-theme);
-  }
-
-  .container {
-    min-width: 320px;
-    max-width: 1280px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-  }
-
-  @media screen and (min-width: 375px) {
-    .container {
-      max-width: 375px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-  }
   
-  @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  }
-  
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  
-  img {
-    display: block;
-  }
-  
-  .container {
+  /* .container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    
   }
-  
-  .list {
-    list-style-type: none;
-  }
+   */
+ 
   
   .section-works {
-    padding: 80px 0;
+    padding: 80px 20px;
   }
   
   .works-title {
@@ -110,6 +38,19 @@
     margin-bottom: 80px;
   }
   
+
+.works-text {
+    max-width: 176px;
+    color: #141414;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.56px; 
+}
+
   .works-step {
     border-radius: 40px;
     background: #FAF3E7; 
@@ -134,10 +75,12 @@
     gap: 20px;
     flex-direction: column;
     justify-content: center;
+    padding-left: 20px;
   }
-  
+
   .works-item-steps {
-    max-width: 176px;
+    width: 100%;
+
 }
 
   
@@ -152,6 +95,8 @@
   list-style-type: none;
   counter-reset: step-counter;
 }
+
+
 .works-step-title li {
   display: flex;
   align-items: center;
@@ -165,7 +110,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
+  min-width: 46px;
   height: 44px;
   margin-right: 14px;
   border-radius: 200px;
