@@ -14,11 +14,13 @@
     font-family: 'DM Sans', sans-serif;
     src: url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
   }
+
   body {
     font-family: DS Sans, sans-serif;
     color: var(--text-icons);
     background-color: var(--white-theme);
   }
+
   .container {
     min-width: 320px;
     max-width: 1280px;
@@ -26,11 +28,13 @@
     padding-right: 20px;
     margin: 0 auto;
   }
+
   @media screen and (min-width: 375px) {
     .container {
       max-width: 375px;
     }
   }
+
   @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
@@ -38,6 +42,7 @@
       padding-right: 32px;
     }
   }
+  
   @media screen and (min-width: 1280px) {
     .container {
       max-width: 1280px;
@@ -129,12 +134,12 @@
     gap: 20px;
     flex-direction: column;
     justify-content: center;
-   
+  }
+  
   .works-item-steps {
-
+    max-width: 176px;
 }
 
-  }
   
   .girl-works {
     margin-top: 20px;
@@ -144,30 +149,32 @@
   }
   
   .works-step-title {
-    list-style-type: none;
-    counter-reset: step-counter;
-  }
-  .works-step-title li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 28px;
-  }
-  .works-step-title li::before {
-    content: counter(step-counter);
-    counter-increment: step-counter;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 46px;
-    height: 44px;
-    margin-right: 14px;
-    border-radius: 200px;
-    background: #a1c487;
-    color: #141414;
-    font-family: DM Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.72px;
-  }
+  list-style-type: none;
+  counter-reset: step-counter;
+}
+.works-step-title li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+
+.works-step-title li::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 44px;
+  margin-right: 14px;
+  border-radius: 200px;
+  background: #a1c487;
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+}
