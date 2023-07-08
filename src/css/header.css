@@ -1,7 +1,21 @@
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+.header-nav {
+  display: none;
+}
+
 .header {
+  margin-left: auto;
+  margin-right: auto;
+
   padding: 13px 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-icon {
@@ -12,6 +26,7 @@
 
 .header-svg {
   margin-right: 8px;
+  fill: #77ac63;
 }
 
 .header-title {
@@ -31,4 +46,69 @@
   width: 24px;
   height: 24px;
   right: 0;
+}
+
+.header-modal-open {
+  fill: #77ac63;
+}
+.header-shop {
+  display: none;
+}
+
+/* -------------TABLET----------- */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .header {
+    padding: 16px 32px;
+    justify-content: unset;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .header-nav {
+    display: unset;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 14px;
+  }
+
+  .header-item {
+    color: var(#141414);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+  }
+
+  .header-shop {
+    display: unset;
+    border: none;
+    background-color: inherit;
+    margin-right: 0;
+  }
+
+  .header-icon {
+    margin-left: 86px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .icon-shop {
+    fill: white;
+    stroke: #141414;
+  }
+}
+
+/* ------------------------DESKTOP------------- */
+@media screen and (min-width: 1280px) {
 }
