@@ -30,13 +30,13 @@
 }
 
 .header-title {
-  color: #141414;
+  color: var(#141414);
   font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
+
   font-weight: 700;
   line-height: 1.28;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
@@ -88,7 +88,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.28;
-    letter-spacing: -0.56px;
+    letter-spacing: -0.03em;
   }
 
   .header-shop {
@@ -130,4 +130,60 @@
     width: 24px;
     height: 24px;
   }
+}
+
+/* -------Mobile menu-------- */
+.mobile-menu {
+  max-width: 375px;
+  height: 812px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a1c487;
+}
+
+.mobile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background-color: #fff;
+}
+
+.close-mobile-btn {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+}
+
+.close-mobile-svg {
+  stroke: #77ac63;
+}
+
+.mobile-section {
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-header-item {
+  padding-bottom: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+}
+
+.mobile-shop {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-cart {
+  stroke: #fff;
+  fill: #a1c487;
 }
