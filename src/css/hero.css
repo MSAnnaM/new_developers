@@ -1,0 +1,235 @@
+.hero-section {
+  background-color: #a1c487;
+}
+.hero-div {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+.hero-list {
+  display: flex;
+}
+.hero-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border-radius: 50%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.hero-item:not(:first-child) {
+  margin-left: -15px;
+}
+.hero-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 8px;
+  line-height: 10px;
+  letter-spacing: -0.32px;
+}
+.hero-reviews span {
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+
+.hero-list-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.hero-title {
+  color: #fff;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+  margin-top: 14px;
+  width: 100%;
+  text-align: left;
+}
+.hero-title span {
+  font-style: italic;
+  color: #eaf7e5;
+}
+.hero-text {
+  color: #fff;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-bottom: 20px;
+  margin-top: 14px;
+  width: 100%;
+  /* width: 335px;
+  height: 90px; */
+}
+.hero-btn {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: none;
+  background-color: #faf3e7;
+  color: #fc8a11;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  transform: rotate(-14deg);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #eaf7e5;
+  color: #a1c487;
+}
+.hero-img-div {
+  height: 228px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img-main {
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  border-radius: 0 0 48% 28%;
+
+  position: relative;
+}
+.hero-img-div::before {
+  content: '';
+  position: absolute;
+  display: flex;
+  width: 186px;
+  height: 280px;
+  transform: rotate(-105deg);
+  border-radius: 500px;
+  background-color: #faf3e7;
+  display: block;
+}
+.hero-link-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  gap: 4px;
+  width: 173px;
+  height: 60px;
+}
+
+.hero-link-list-link {
+  display: flex;
+  padding: 8px 14px;
+  border-radius: 1000px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+.hero-link-list-link:hover,
+.hero-link-list-link:focus {
+  background-color: #fff;
+  color: #141414;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    height: auto;
+  }
+  .hero-title {
+    width: 335px;
+  }
+  .hero-text {
+    width: 335px;
+  }
+}
+/* @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .hero-div {
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -2.16px;
+    margin-top: 14px;
+    width: 656px;
+  }
+  .hero-item {
+    width: 54px;
+    height: 54px;
+  }
+  .hero-list-img {
+    width: 50px;
+    height: 50px;
+  }
+  .hero-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+    height: 54px;
+  }
+  .hero-btn {
+    width: 114px;
+    height: 114px;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.96px;
+  }
+  .hero-img-main {
+    width: 389px;
+    height: 388px;
+
+    margin-bottom: 8px;
+  }
+  .hero-img-div::before {
+    width: 315px;
+    height: 473px;
+  }
+  .hero-link-list {
+    gap: 8px 4px;
+    width: 219px;
+    height: 76px;
+  }
+  .hero-link-list-link {
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.48px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+} */
