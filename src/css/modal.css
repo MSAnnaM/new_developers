@@ -93,7 +93,7 @@
 }
 
 .check-icon {
-  fill: rgba(161, 196, 135, 1);
+  fill: var(--main-theme);
 }
 
 .decstop-img {
@@ -136,11 +136,7 @@
 }
 
 .modal-text-order {
-  color: #141414;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: -1.12px;
@@ -149,36 +145,28 @@
 }
 
 .text-product-modal {
-  color: #141414;
-  font-family: DM Sans;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 24px;
   letter-spacing: -0.72px;
   margin-bottom: 2px;
 }
 .text-info-modal {
-  color: #141414;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
 }
 
 .modal-input-info:focus {
-  border-color: #fc8a11;
+  border-color: var(--main-theme);
 }
 
 .modal-textarea:focus {
-  border-color: #fc8a11;
+  border-color: var(--main-theme);
 }
 
 .modal-send :hover,
 .modal-send :focus {
-  background: #fc8a11;
+  background: var(--main-theme);
 }
 /** --------------form--------------- */
 
@@ -198,10 +186,7 @@
 }
 .modal-input-info::placeholder {
   color: rgba(20, 20, 20, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
 }
@@ -220,11 +205,8 @@
 }
 .modal-textarea::placeholder {
   color: rgba(20, 20, 20, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
+  line-height: 1.28;
   letter-spacing: -0.56px;
 }
 
@@ -235,16 +217,13 @@
   width: 92px;
   height: 42px;
   align-self: center;
-  color: #fff;
-  font-family: DM Sans;
+  color: var(--white-theme);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
   text-transform: capitalize;
   border-radius: 100px;
-  background: #fc8a11;
+  background-color: var(--btn);
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
@@ -413,7 +392,7 @@
     display: inline-flex;
     fill: transparent;
     border-radius: 5px;
-    background: #fff;
+    background: var(--white-theme);
     margin-right: 8px;
     align-items: center;
     justify-content: center;
@@ -453,10 +432,7 @@
   }
   .modal-input-info::placeholder {
     color: rgba(20, 20, 20, 0.5);
-    font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.56px;
   }
@@ -475,10 +451,7 @@
   }
   .modal-textarea::placeholder {
     color: rgba(20, 20, 20, 0.5);
-    font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.56px;
   }
@@ -490,16 +463,13 @@
     width: 92px;
     height: 42px;
     align-self: center;
-    color: #fff;
-    font-family: DM Sans;
+    columns: var(--white-theme);
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.56px;
     text-transform: capitalize;
     border-radius: 100px;
-    background: #fc8a11;
+    background-color: var(--btn);
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;

@@ -275,26 +275,40 @@
         ></textarea>
       </div>
       <div class="girl">
-        <img
-          srcset="
-            /img/img-modal/girl-next.png    1x,
-            /img/img-modal/girl-next-2x.png 2x
-          "
-          src="./img/img-modal/girl-next.png"
-          alt="girl-next"
-          class="girl-avacado"
-        />
+        <picture>
+          <source
+            srcset="
+              /img/img-modal/girl-next.png    1x,
+              /img/img-modal/girl-next-2x.png 2x
+            "
+            media="(min-width:768)"
+          />
+          <img
+            src="/img/img-modal/girl-next.png"
+            alt="girl-next"
+            class="girl-avacado"
+            width="444"
+            height="413"
+          />
+        </picture>
       </div>
       <div>
-        <img
-          srcset="
-            /img/img-modal/img-girl.png    1x,
-            /img/img-modal/img-girl-2x.png 2x
-          "
-          src="./img/img-modal/img-girl.png"
-          alt="img-girl"
-          class="girl-img"
-        />
+        <picture>
+          <source
+            srcset="
+              /img/img-modal/img-girl.png    1x,
+              /img/img-modal/img-girl-2x.png 2x
+            "
+            media="(min-width: 1158px)"
+          />
+          <img
+            src="/img/img-modal/img-girl.png"
+            alt="img-girl"
+            class="girl-img"
+            width="290"
+            height="403"
+          />
+        </picture>
       </div>
       <button type="submit" class="modal-send">Submit</button>
     </form>
