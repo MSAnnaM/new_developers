@@ -1,0 +1,148 @@
+:root {
+    --works-step: #FAF3E7;
+    --subtitle-color: #141414;
+    
+  }
+  
+  *,
+  ::before,
+  ::after {
+      box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+  }
+  body {
+    font-family: DS Sans, sans-serif;
+    color: var(--text-icons);
+    background-color: var(--white-theme);
+  }
+  .container {
+    min-width: 320px;
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 375px) {
+    .container {
+      max-width: 375px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+  }
+  
+  .list {
+    list-style-type: none;
+  }
+  
+  .section-works {
+    padding: 80px 0;
+  }
+  
+  .works-title {
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+  text-transform: uppercase; 
+  margin-bottom: 20px;
+  }
+  
+  .works-oport {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; 
+  }
+  .works-order {
+    margin-bottom: 80px;
+  }
+  
+  .works-step {
+    border-radius: 40px;
+    background: #FAF3E7; 
+    height: 661px;
+  }
+  
+  .works-subtitle {
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  padding: 40px 20px; 
+  
+  }
+  
+  .works-step-title {
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* width: 176px; */
+    flex-direction: column;
+    justify-content: center;
+   
+  
+  }
+  
+  .girl-works {
+    margin-top: 20px;
+    /* padding-left: 39px;
+    padding-right: 38px; */
+  }
+  
+  
+  li::marker {
+    
+  }
+  
