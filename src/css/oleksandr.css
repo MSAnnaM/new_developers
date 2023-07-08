@@ -127,21 +127,47 @@
   .works-step-title {
     display: flex;
     gap: 20px;
-    /* flex-wrap: wrap; */
-    /* width: 176px; */
     flex-direction: column;
     justify-content: center;
    
-  
+  .works-item-steps {
+
+}
+
   }
   
   .girl-works {
     margin-top: 20px;
     display: block;
-  margin: 0 auto; 
-    /* position:absolute;
-    left:50%;
-	top:50%; */
+    margin: 0 auto; 
+    
   }
   
-  
+  .works-step-title {
+    list-style-type: none;
+    counter-reset: step-counter;
+  }
+  .works-step-title li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+  .works-step-title li::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 44px;
+    margin-right: 14px;
+    border-radius: 200px;
+    background: #a1c487;
+    color: #141414;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
