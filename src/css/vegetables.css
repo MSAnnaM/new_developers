@@ -1,0 +1,109 @@
+
+.sec-vegetables{
+    padding: 0 20px;
+}
+
+.title-vegetables {
+color: #141414;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 24px;
+font-weight: 500;
+line-height: 1.16em;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+margin-bottom: 14px;
+}
+
+.subtext-vegetables {
+    width: 100%;
+color: #141414;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 14px;
+line-height: 1.28em;
+letter-spacing: -0.04em;
+margin-bottom: 40px;
+}
+
+.vegetables-list-container {
+
+}
+
+.vegetables-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+gap: 20px;
+}
+
+.vegetables {
+padding: 40px 20px 20px 20px;
+height: 443px;
+width: 100%;
+background-color: #EAF7E5;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.name-vegetables {
+font-size: 24px;
+font-weight: 700;
+line-height: 1.16em;
+letter-spacing: -0.04em; 
+}
+
+.plant {
+font-size: 14px;
+line-height: 1.28em;
+letter-spacing: -0.02em;
+}
+
+.price {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.28em;
+letter-spacing: -0.04em; 
+}
+
+.image-shadow{
+height: 285px;
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;   
+}
+
+.img-сarrot {
+
+}
+
+
+.vege-btn-order {
+border: none;
+height: 80px;
+width: 80px;
+border-radius: 50px;
+background-color: #FC8A11;
+transform: rotate(-14deg);
+color: #FFF;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 14px;
+font-weight: 500;
+/* line-height: 1.28;
+letter-spacing: -0.04; */
+line-height: 18px;
+letter-spacing: -0.56px;
+display: block;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.icon-btn-order {
+transform: rotate(14deg);
+}
