@@ -5,33 +5,12 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./variables.css');
+@import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./works.css');
+@import url('./oleksandr.css');
 @import url('./vegetables.css');
 @import url('./call.css');
 @import url('./footer.css');
 @import url('./modal.css');
-
-@font-face {
-  font-family: ‘DM Sans’, sans-serif;
-  src: url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
-}
-:root {
-  --white-theme: #fff;
-  --main-theme: #a1c487;
-  --light-theme: #eaf7e5;
-  --support-theme: #faf3e7;
-  --btn: #fc8a11;
-  --text-icons: #141414;
-
-  font-family: DS Sans, sans-serif;
-  color: var(--text-icons);
-  background-color: var(--white-theme);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
