@@ -137,8 +137,11 @@
   
   .girl-works {
     margin-top: 20px;
-    /* padding-left: 39px;
-    padding-right: 38px; */
+    display: block;
+  margin: 0 auto; 
+    /* position:absolute;
+    left:50%;
+	top:50%; */
   }
   
   
