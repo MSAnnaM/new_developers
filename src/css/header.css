@@ -155,6 +155,8 @@
   background-color: inherit;
   padding: 0;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mobile-cart {
