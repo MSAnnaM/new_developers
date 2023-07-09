@@ -48,7 +48,7 @@
   border-radius: 40px;
 }
 .hero-title {
-  color: #fff;
+  color: var(--white-theme);
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 40px;
   font-weight: 500;
@@ -232,8 +232,6 @@
     width: 70px;
     height: 70px;
   }
-  .hero-list {
-  }
   .hero-title {
     width: 672px;
   }
@@ -249,8 +247,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .hero-btn-list {
-  }
+
   .hero-img-main {
     width: 422px;
     height: 460px;
