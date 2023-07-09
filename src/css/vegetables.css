@@ -126,6 +126,10 @@ text-transform: uppercase;
 transform: rotate(14deg);
 }
 
+.hiden {
+    display: none;
+}
+
 @media screen and (min-width: 375px)  {
     
 }
