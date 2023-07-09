@@ -1,7 +1,7 @@
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .header-list {
@@ -9,9 +9,6 @@
 }
 
 .header {
-  margin-left: auto;
-  margin-right: auto;
-
   padding: 13px 20px;
   display: flex;
   align-items: center;
@@ -26,14 +23,13 @@
 
 .header-svg {
   margin-right: 8px;
-  fill: #77ac63;
+  fill: var(--green-icon);
 }
 
 .header-title {
   color: var(#141414);
   font-family: DM Sans;
   font-size: 14px;
-
   font-weight: 700;
   line-height: 1.28;
   letter-spacing: -0.03em;
@@ -50,7 +46,7 @@
 }
 
 .header-modal-open {
-  fill: #77ac63;
+  fill: var(--green-icon);
 }
 .header-shop {
   display: none;
@@ -59,15 +55,9 @@
 
 /* -------------TABLET----------- */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
   .header {
     padding: 16px 32px;
     flex-wrap: nowrap;
-    margin-right: auto;
-    margin-left: auto;
     width: 100%;
   }
 
@@ -83,10 +73,7 @@
   }
 
   .header-item {
-    color: var(#141414);
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.03em;
   }
@@ -103,17 +90,13 @@
   }
 
   .icon-shop {
-    fill: white;
-    stroke: #141414;
+    fill: var(--white-theme);
+    stroke: var(--text-icons);
   }
 }
 
 /* ------------------------DESKTOP------------- */
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
   .header {
     padding: 13px 32px;
   }
@@ -134,11 +117,10 @@
 
 /* -------Mobile menu-------- */
 .mobile-menu {
+  /* display: none; */
   max-width: 375px;
   height: 812px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #a1c487;
+  background-color: var(--main-theme);
 }
 
 .mobile-header {
@@ -146,7 +128,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 16px 20px;
-  background-color: #fff;
+  background-color: var(--white-theme);
 }
 
 .close-mobile-btn {
@@ -156,7 +138,7 @@
 }
 
 .close-mobile-svg {
-  stroke: #77ac63;
+  stroke: var(--green-icon);
 }
 
 .mobile-section {
@@ -167,7 +149,7 @@
 
 .mobile-header-item {
   padding-bottom: 16px;
-  color: #fff;
+  color: var(--white-theme);
   text-align: center;
   font-size: 14px;
   line-height: 1.28;
@@ -179,11 +161,9 @@
   background-color: inherit;
   padding: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mobile-cart {
-  stroke: #fff;
-  fill: #a1c487;
+  stroke: var(--white-theme);
+  fill: var(--main-theme);
 }

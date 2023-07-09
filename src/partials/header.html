@@ -1,61 +1,68 @@
-<div class="header container">
-  <nav class="header-nav">
-    <ul class="header-list">
-      <li class="header-item"><a href="#">How It Works</a></li>
-      <li class="header-item"><a href="#"></a>Vegetables</li>
-      <li class="header-item"><a href="#"></a>Contacts</li>
-    </ul>
-    <a href="../index.html" class="header-icon"
-      ><svg class="header-svg" width="16" height="16">
-        <use href="../img/sprite.svg#icon-logo"></use>
-      </svg>
-      <span class="header-title">Veggieboost</span></a
-    >
-  </nav>
+<header class="container">
+  <div class="header">
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item"><a href="#section-works">How It Works</a></li>
+        <li class="header-item">
+          <a href="#organic-vegetables">Vegetables</a>
+        </li>
+        <li class="header-item"><a href="#contacts">Contacts</a></li>
+      </ul>
+      <a href="../index.html" class="header-icon"
+        ><svg class="header-svg" width="16" height="16">
+          <use href="/img/sprite.svg#icon-logo"></use>
+        </svg>
+        <span class="header-title">Veggieboost</span></a
+      >
+    </nav>
 
-  <button type="button" class="header-btn" mobile-modal mobile-modal-open>
-    <svg class="header-modal-open" width="24" height="24">
-      <use href="../img/sprite.svg#icon-modal-open"></use>
-    </svg>
-  </button>
-  <button class="header-shop" type="button">
-    <svg class="icon-shop" width="20" height="20">
-      <use href="../img/sprite.svg#icon-shopping-cart"></use>
-    </svg>
-  </button>
-</div>
-
-<!-- -------Mobile menu------->
-<div class="mobile-menu is-hidden">
-  <div class="mobile-header">
-    <a href="../index.html" class="header-icon"
-      ><svg class="header-svg" width="16" height="16">
-        <use href="../img/sprite.svg#icon-logo"></use>
+    <button type="button" class="header-btn" mobile-modal-open>
+      <svg class="header-modal-open" width="24" height="24">
+        <use href="/img/sprite.svg#icon-modal-open"></use>
       </svg>
-      <span class="header-title">Veggieboost</span></a
-    >
-    <button type="submit" class="close-mobile-btn" mobile-modal-close>
-      <svg class="close-mobile-svg" width="24" height="24">
-        <use href="../img/sprite.svg#icon-x"></use>
+    </button>
+    <button class="header-shop" type="button">
+      <svg class="icon-shop" width="20" height="20">
+        <use href="/img/sprite.svg#icon-shopping-cart"></use>
       </svg>
     </button>
   </div>
 
-  <div class="mobile-section">
-    <div class="mobile-header-nav">
-      <nav>
-        <ul class="mobile-header-list">
-          <li class="mobile-header-item"><a href="#">How It Works</a></li>
-          <li class="mobile-header-item"><a href="#"></a>Vegetables</li>
-          <li class="mobile-header-item"><a href="#"></a>Contacts</li>
-        </ul>
-      </nav>
-      <button class="mobile-shop" mobile-modal>
-        <svg class="mobile-cart" width="20" height="20">
-          <use href="../img/sprite.svg#icon-shopping"></use>
+  <!-- -------Mobile menu------->
+  <div class="mobile-menu is-hidden">
+    <div class="mobile-header">
+      <a href="../index.html" class="header-icon"
+        ><svg class="header-svg" width="16" height="16">
+          <use href="/img/sprite.svg#icon-logo"></use>
+        </svg>
+        <span class="header-title">Veggieboost</span></a
+      >
+      <button type="submit" class="close-mobile-btn" mobile-modal-close>
+        <svg class="close-mobile-svg" width="24" height="24">
+          <use href="/img/sprite.svg#icon-modal-close"></use>
         </svg>
       </button>
     </div>
+
+    <div class="mobile-section">
+      <div class="mobile-header-nav">
+        <nav>
+          <ul class="mobile-header-list">
+            <li class="mobile-header-item">
+              <a href="#section-works">How It Works</a>
+            </li>
+            <li class="mobile-header-item">
+              <a href="#organic-vegetables"></a>Vegetables
+            </li>
+            <li class="mobile-header-item"><a href="#contacts"></a>Contacts</li>
+          </ul>
+        </nav>
+        <button type="button" class="mobile-shop" mobile-modal>
+          <svg class="mobile-cart" width="20" height="20">
+            <use href="/img/sprite.svg#icon-shopping-cart"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </div>
-</div>
-<script type="module" src="../js/mobile-menu.js"></script>
+</header>
