@@ -42,17 +42,16 @@
 
 .recall-input {
   padding: 0 24px;
-  height: 48px;
+  height: 50px;
   border-radius: 100px;
   border: 1px solid rgba(20, 20, 20, 0.3);
   background: transparent;
-  color: var(--text-icons #141414);
+  color: var(--text-icons);
   outline: none;
-  transition: border var(--transition);
 }
 
 .recall-input:focus-within {
-  border: 1px solid var(--btn);
+  border: 1px solid var(--main-theme);
 }
 
 .recall-input::placeholder {
@@ -73,7 +72,6 @@
   line-height: 18px;
   letter-spacing: -0.04em;
   border: none;
-  transition: 300ms linear;
 }
 
 .recall-submit-btn:is(:hover, :focus) {
