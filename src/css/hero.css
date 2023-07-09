@@ -252,7 +252,8 @@
     width: 422px;
     height: 460px;
     margin-bottom: 21px;
-    border-radius: 0 0 47% 36%;
+    border-radius: 0 0 48% 35%;
+    transform: rotate(-8deg);
   }
   .hero-img-div::before {
     width: 341px;
