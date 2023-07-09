@@ -49,7 +49,7 @@ text-transform: uppercase;
 
 .footer-soc-item {
   border-radius: 10px;
-  border: 1px solid #141414;
+  border: 1px solid var(--text-icons);
   padding: 8px;
 }
 
@@ -67,15 +67,17 @@ text-transform: uppercase;
   font-size: 14px;
   line-height: 1.3;
   color: var(--text-icons);
+  font-style: normal;
 }
 
-.adress {
+.footer-sub-text {
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.02em;
   width: 135px;
   height: 54px;
   text-align: center;
+  font-style: normal;
 }
 
 
