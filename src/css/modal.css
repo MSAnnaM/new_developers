@@ -138,22 +138,23 @@
 .modal-text-order {
   font-size: 28px;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: -1.12px;
+  line-height: 1;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
 .text-product-modal {
   font-size: 18px;
-  line-height: 24px;
-  letter-spacing: -0.72px;
+  line-height: 0.75;
+  letter-spacing: -0.04em;
   margin-bottom: 2px;
+  font-weight: 700;
 }
 .text-info-modal {
   font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.28px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 
 .modal-input-info:focus {
@@ -187,8 +188,8 @@
 .modal-input-info::placeholder {
   color: rgba(20, 20, 20, 0.5);
   font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.56px;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
 }
 
 .modal-textarea {
@@ -207,7 +208,7 @@
   color: rgba(20, 20, 20, 0.5);
   font-size: 14px;
   line-height: 1.28;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.04em;
 }
 
 .modal-name {
@@ -219,8 +220,8 @@
   align-self: center;
   color: var(--white-theme);
   font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.56px;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
   text-transform: capitalize;
   border-radius: 100px;
   background-color: var(--btn);
@@ -329,8 +330,8 @@
 
   .modal-text-order {
     font-size: 40px;
-    line-height: 44px;
-    letter-spacing: -1.6px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
   }
 
   .mob-img-tomato {
@@ -369,6 +370,7 @@
   }
   .text-info-modal {
     margin-left: 6px;
+    margin-bottom: 10px;
   }
 
   /** --------------form--------------- */
@@ -433,8 +435,8 @@
   .modal-input-info::placeholder {
     color: rgba(20, 20, 20, 0.5);
     font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.56px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
   }
 
   .modal-textarea {
@@ -452,8 +454,8 @@
   .modal-textarea::placeholder {
     color: rgba(20, 20, 20, 0.5);
     font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.56px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
   }
 
   .modal-name {
@@ -464,9 +466,6 @@
     height: 42px;
     align-self: center;
     columns: var(--white-theme);
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.56px;
     text-transform: capitalize;
     border-radius: 100px;
     background-color: var(--btn);
@@ -486,16 +485,10 @@
     min-height: 911px;
   }
 
-  .modal-text-order {
-    font-size: 40px;
-    line-height: 44px;
-    letter-spacing: -1.6px;
-  }
-
   .text-product-modal {
     font-size: 24px;
-    line-height: 28px;
-    letter-spacing: -0.96px;
+    line-height: 1.16;
+    letter-spacing: -0.04em;
     margin-left: 13px;
     margin-bottom: 8px;
   }
@@ -579,5 +572,14 @@
 
   .oder-modal-vegetables {
     min-width: 100%;
+  }
+
+  .mob-img-basket {
+    margin-top: -9px;
+    margin-left: auto;
+    display: flex;
+  }
+  .oder-modal-vegetables {
+    display: block;
   }
 }
