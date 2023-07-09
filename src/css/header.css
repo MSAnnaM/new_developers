@@ -3,7 +3,8 @@
 }
 
 .header {
-  padding: 13px 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,8 +22,6 @@
 }
 
 .header-title {
-  color: var(#141414);
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.28;
@@ -50,7 +49,8 @@
 /* -------------TABLET----------- */
 @media screen and (min-width: 768px) {
   .header {
-    padding: 16px 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     flex-wrap: nowrap;
     width: 100%;
   }
@@ -92,7 +92,8 @@
 /* ------------------------DESKTOP------------- */
 @media screen and (min-width: 1280px) {
   .header {
-    padding: 13px 32px;
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
 
   .header-list {
@@ -112,8 +113,16 @@
 /* -------Mobile menu-------- */
 .mobile-menu {
   max-width: 375px;
-  height: 812px;
   background-color: var(--main-theme);
+  position: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+  overflow: auto;
+  left: 0;
+  right: 0;
 }
 
 .mobile-header {
@@ -161,4 +170,10 @@
 .mobile-cart {
   stroke: var(--white-theme);
   fill: var(--main-theme);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
