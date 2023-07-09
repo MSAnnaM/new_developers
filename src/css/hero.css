@@ -96,7 +96,6 @@
   color: var(--main-theme);
 }
 .hero-img-div {
-  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,6 +223,14 @@
 @media screen and (min-width: 1280px) {
   .hero-div {
     padding-top: 133px;
+  }
+  .hero-list-img {
+    width: 66px;
+    height: 66px;
+  }
+  .hero-item {
+    width: 70px;
+    height: 70px;
   }
   .hero-list {
   }
