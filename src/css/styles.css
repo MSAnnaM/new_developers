@@ -5,29 +5,12 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./variables.css');
+@import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./works.css');
+@import url('./oleksandr.css');
 @import url('./vegetables.css');
 @import url('./call.css');
 @import url('./footer.css');
 @import url('./modal.css');
-
-:root {
-  --white-theme: #fff;
-  --main-theme: #a1c487;
-  --light-theme: #eaf7e5;
-  --support-theme: #faf3e7;
-  --btn: #fc8a11;
-  --textnicons: #141414;
-
-  font-family: DS Sans, sans-serif;
-  color: var(--textnicons);
-  background-color: var(--white-theme);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
