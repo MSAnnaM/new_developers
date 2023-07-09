@@ -1,11 +1,29 @@
 @font-face {
-  font-family: 'DM Sans', sans-serif;
-  src: url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+  font-family: 'DM Sans';
+  src: url(/font/DMSans-Bold.woff), url(/font/DMSans-Bold.woff2);
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(/font/DMSans-Medium.woff), url(/font/DMSans-Medium.woff2);
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url(/font/DMSans-Regular.woff), url(/font/DMSans-Regular.woff2);
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
 body {
-  font-family: DS Sans, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: var(--text-icons);
   background-color: var(--white-theme);
+  font-weight: 400;
 }
 .container {
   min-width: 320px;
