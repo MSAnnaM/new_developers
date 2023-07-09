@@ -26,15 +26,10 @@ letter-spacing: -0.04em;
 margin-bottom: 40px;
 }
 
-.vegetables-list-container {
-
-}
-
 .vegetables-list {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-
 gap: 20px;
 }
 
@@ -96,8 +91,6 @@ filter: blur(25px)
 z-index: 3;
 position: sticky;
 }
-
-
 
 .vege-btn-order {
 border: none;
