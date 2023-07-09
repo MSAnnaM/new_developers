@@ -52,7 +52,7 @@
 }
 
 .recall-input:focus-within {
-  border: 1px solid var(--btn #fc8a11);
+  border: 1px solid var(--btn);
 }
 
 .recall-input::placeholder {
@@ -68,7 +68,7 @@
   width: 105px;
   border-radius: 100px;
   background: var(--btn);
-  color: var(--white-theme #fff);
+  color: var(--white-theme);
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.04em;
