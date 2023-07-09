@@ -111,7 +111,6 @@
 
 /* -------Mobile menu-------- */
 .mobile-menu {
-  /* display: none; */
   max-width: 375px;
   height: 812px;
   background-color: var(--main-theme);

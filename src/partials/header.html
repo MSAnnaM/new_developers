@@ -16,12 +16,12 @@
       >
     </nav>
 
-    <button type="button" class="header-btn" mobile-modal-open>
+    <button type="button" class="header-btn" mobile-menu-open>
       <svg class="header-modal-open" width="24" height="24">
         <use href="/img/sprite.svg#icon-modal-open"></use>
       </svg>
     </button>
-    <button class="header-shop" type="button">
+    <button class="header-shop" type="button" data-modal-open>
       <svg class="icon-shop" width="20" height="20">
         <use href="/img/sprite.svg#icon-shopping-cart"></use>
       </svg>
@@ -29,7 +29,7 @@
   </div>
 
   <!-- -------Mobile menu------->
-  <div class="mobile-menu is-hidden">
+  <div class="mobile-menu is-hidden" mobile-modal>
     <div class="mobile-header">
       <a href="../index.html" class="header-icon"
         ><svg class="header-svg" width="16" height="16">
@@ -37,7 +37,7 @@
         </svg>
         <span class="header-title">Veggieboost</span></a
       >
-      <button type="submit" class="close-mobile-btn" mobile-modal-close>
+      <button type="submit" class="close-mobile-btn" mobile-menu-close>
         <svg class="close-mobile-svg" width="24" height="24">
           <use href="/img/sprite.svg#icon-modal-close"></use>
         </svg>
