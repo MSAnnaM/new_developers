@@ -1,19 +1,27 @@
 <section class="container-works container" id="section-works">
   <div class="works-order">
-      <h2 class="works-title">TO ORDER YOUR VEGETABLE BASKET, SIMPLY FOLLOW THESE EASY STEPS</h2>
       <ul class="works-oport list">
           <li class="works-item">
-              <img
-              srcset="./img/works/img-mob-vegetables.png, ./img/works/img-mob-vegetables2x.png"
-              src="./img/works/img-mob-vegetables.png"
-              alt="Vegetable basket"
-              width="335"
-          />
+            <h2 class="works-title">TO ORDER YOUR VEGETABLE BASKET, SIMPLY FOLLOW THESE EASY STEPS</h2>
           </li>
-          <li>
+          <li class="works-item">
+            <picture class="girl-picture">
+              <source srcset="/img/works/img-desc-vegetables.png 1x, /img/works/img-desc-vegetables2x.png 2x"  media="(min-width: 1158px)"/>
+              <source srcset="/img/works/img-tab-vegetables.png 1x, /img/works/img-tab-vegetables2x.png 2x" media="(min-width: 768px)"/>
+              <source srcset="/img/works/img-mob-vegetables.png 1x, /img/works/img-mob-vegetables2x.png 2x" media="(min-width: 428px)"/>
+              <img
+                src="./img/works/img-mob-vegetables.png"
+                alt="Vegetable basket"
+                width="335"
+                height="158"
+              />
+            </picture>  
+          </li>
+      </ul>    
+          <li class="works-item">
             <p>Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home.</p>
           </li>
-          <li>
+          <li class="works-item">
             <p>Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</p>
           </li>
       </ul>
@@ -30,14 +38,19 @@
       <li class="works-item-steps">
         <p class="works-text">Sit back and relax! Your fresh vegetables basket will be delivered.</p>
       </li>
-     </ol>
-     <img
-          srcset="./img/works/img-mob-girl.png, ./img/works/img-mob-girl2x.png"
-          src="./img/works/img-mob-girl.png"
-          alt="Steps for buying"
-          width="258"
-          class="girl-works"
-        />
+    </ol>
+      <picture class="girl-picture">
+        <source srcset="/img/works/img-dasc-girl.png 1x, /img/works/img-dasc-girl2x.png 2x" media="(min-width: 1158px)"/>
+        <source srcset="/img/works/img-tab-girl.png 1x, /img/works/img-tab-girl2x.png 2x" media="(min-width: 768px)"/>
+        <source srcset="/img/works/img-mob-girl.png 1x, /img/works/img-mob-girl2x.png 2x"  media="(min-width: 428px)"/>
+          <img 
+            src="./img/works/img-mob-girl.png"
+            alt="Steps for buying"
+            width="258"
+            height="319" 
+            class="girl-works"
+          />
+      </picture>
   </div>
   
 </section>

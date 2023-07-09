@@ -1,20 +1,22 @@
 
   
   .container-works {
-    padding: 80px 20px;
+    padding-top: 80px;
   }
-  
+
+  .works-order {
+    margin-bottom: 80px;
+  }
+
   .works-title {
   color: #141414;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
   text-transform: uppercase; 
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   }
   
   .works-oport {
@@ -24,42 +26,35 @@
     width: 100%;
     justify-content: center; 
   }
-
   
-  .works-order {
-    margin-bottom: 80px;
+  @media screen and (min-width: 768px) {
+    .works-item {
+      width: calc((100% - 40px) / 2);
+    }
   }
-  
 
-.works-text {
-max-width: 176px;
-color: #141414;
-text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); 
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: -0.56px; 
-}
+
+/** -------DIV-2--------------------*/
+
+
 
   .works-step {
     border-radius: 40px;
-    background: #FAF3E7; 
+    background: var(--support-theme); 
     height: 661px;
   }
-  
+
+   
   .works-subtitle {
   color: #141414;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.16;
-  letter-spacing: -0.96px;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
   padding: 40px 20px; 
-  
-  }
+    }
   
   .works-step-title {
     display: flex;
@@ -74,12 +69,21 @@ letter-spacing: -0.56px;
 
 }
 
+.works-text {
+  max-width: 176px;
+  color: var(--text-icons);
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10); 
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.04em; 
+  }
+  
   
   .girl-works {
     margin-top: 20px;
     display: block;
     margin: 0 auto; 
-    
+    max-width: 258px;
   }
   
   .works-step-title {
@@ -105,12 +109,10 @@ letter-spacing: -0.56px;
   height: 44px;
   margin-right: 14px;
   border-radius: 200px;
-  background: #a1c487;
-  color: #141414;
-  font-family: DM Sans;
+  background: var(--main-theme);
+  color: var(--text-icons);
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: -0.72px;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
 }
+
