@@ -111,13 +111,20 @@ padding-bottom: 80px;
   }
   
   
-  .girl-works {
+  /* .girl-works {
     margin-top: 20px;
     display: block;
     margin: 0 auto; 
     max-width: 258px;
-  }
+  } */
   
+.girl-picture {
+  margin-top: 20px;
+    display: block;
+    margin: 0 auto; 
+    max-width: 258px;
+}
+
   .works-step-title {
   list-style-type: none;
   counter-reset: step-counter;
