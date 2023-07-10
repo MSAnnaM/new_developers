@@ -1,0 +1,128 @@
+
+.cont-vege {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title-vegetables {
+
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 24px;
+font-weight: 500;
+line-height: 1.16;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+margin-bottom: 14px;
+}
+
+.subtext-vegetables {
+    width: 100%;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.04em;
+margin-bottom: 40px;
+}
+
+.vegetables-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.vegetables {
+padding: 40px 20px 20px 20px;
+height: 443px;
+width: 100%;
+background-color: var(--light-theme);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.name-vegetables {
+font-size: 24px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: -0.04em; 
+}
+
+.plant {
+ font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+}
+
+.price {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.28;
+letter-spacing: -0.04em;
+}
+
+.image-shadow {
+height: 285px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.image-shadow::before {
+content: '';
+position: absolute;
+border-radius: 100px;
+bottom: 40px;
+transform: translateY(50%);
+width: 195px;
+height: 38px;
+background-color: rgba(0, 0, 0, 0.2);
+z-index: 1;
+pointer-events: none;
+filter: blur(25px)
+}
+
+.img-vege {
+z-index: 3;
+position: sticky;
+}
+
+.vege-btn-order {
+border: none;
+height: 80px;
+width: 80px;
+border-radius: 50px;
+background-color: var(--btn);
+transform: rotate(-14deg);
+color: var(--white-theme);
+fill: var(--white-theme);
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.28;
+letter-spacing: -0.04em;
+display: block;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.icon-btn-order {
+transform: rotate(14deg);
+}
+
+.hiden {
+    display: none;
+}
+
+@media screen and (min-width: 375px)  {
+    
+}
