@@ -1,7 +1,23 @@
 .is-hidden {
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  z-index: 99;
+  justify-content: flex-start;
+  padding: 30px 0;
+  flex-shrink: 0;
 }
 
 .backdrop.is-hidden .modal {
@@ -9,23 +25,23 @@
 }
 
 .modal {
+  background-color: #fff;
+  width: 335px;
+  transition: transform 0.15s ease 0s, opacity 0.15s ease 0s;
+  transform: scale(1);
+  justify-content: flex-start;
+  max-height: 903px;
   border-radius: 20px;
-  background: #fff;
   box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
     0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
     0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
     0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
     0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
-  width: 335px;
-  min-height: 903px;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 20px 20px 20px 20px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .icon-button {
   background-color: transparent;
   border: none;
@@ -42,6 +58,16 @@
 }
 
 .modal-icon-big {
+  fill: black;
+  stroke: black;
+}
+
+.icon-button {
+  fill: black;
+  stroke: black;
+}
+
+.modal-icon-big {
   display: none;
 }
 
@@ -49,15 +75,6 @@
   display: inline-block;
 }
 
-.backdrop {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
-  position: fixed;
-  top: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .order-list {
   display: block;
 }
@@ -286,9 +303,13 @@
 
 @media screen and (min-width: 768px) {
   .modal {
-    min-height: 800px;
+    min-height: 853px;
     width: 704px;
     padding: 40px 40px 40px 40px;
+  }
+
+  .backdrop {
+    padding: 20px 0;
   }
 
   .modal-icon {
@@ -480,9 +501,13 @@
 @media screen and (min-width: 1158px) {
   .modal {
     width: 891px;
-    position: absolute;
     padding: 40px 40px 40px 40px;
     min-height: 911px;
+    overflow: hidden;
+  }
+
+  .backdrop {
+    padding: 10px 0;
   }
 
   .text-product-modal {
