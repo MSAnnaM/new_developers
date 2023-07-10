@@ -20,7 +20,7 @@ padding-bottom: 80px;
   line-height: 1.14;
   letter-spacing: -0.04em;
   text-transform: uppercase; 
-  /* margin-bottom: 20px; */
+  
   }
   
   .works-oport {
@@ -58,9 +58,9 @@ padding-bottom: 80px;
   }
 
     .works-subitem {
-      /* justify-content: flex-start; */
+      
       width: calc((100% - 20px) / 2)
-      /* gap: 20px; */
+      
      
     }
   }
@@ -68,9 +68,87 @@ padding-bottom: 80px;
 
 /** -------DIV-2--------------------*/
 
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.works-step {
+  .back-wrapper {
+    background: #faf3e7;
+    background-image: radial-gradient(
+      circle at 30px 20px,
+      rgba(161, 196, 135, 0.3) 2.5px,
+      transparent 0
+    );
+    background-size: 62px 60px;
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
-  .works-step {
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.works-step-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.works-item-steps {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.works-subtitle {
+  color: var(--text-icons);
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  }
+
+.step-number {
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 200px;
+  background: var(--main-theme);
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 46px;
+  height: 44px;
+}
+
+.works-text {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 194px;
+  height: 54px;
+  align-items: center;
+}
+
+.girl-works {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  /* .works-step {
     border-radius: 40px;
     background: var(--support-theme); 
     height: 661px;
@@ -111,18 +189,13 @@ padding-bottom: 80px;
   }
   
   
-  /* .girl-works {
-    margin-top: 20px;
-    display: block;
-    margin: 0 auto; 
-    max-width: 258px;
-  } */
   
 .girl-picture {
-  margin-top: 20px;
+  
     display: block;
-    margin: 0 auto; 
+   
     max-width: 258px;
+    
 }
 
   .works-step-title {
@@ -153,5 +226,5 @@ padding-bottom: 80px;
   font-size: 18px;
   line-height: 1.3;
   letter-spacing: -0.04em;
-}
+} */
 
