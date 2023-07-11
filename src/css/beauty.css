@@ -1,0 +1,3 @@
+.footer-soc-item {
+    transition: background-color 250ms cubic-bezier(.42,0,1,1) ; 
+}
