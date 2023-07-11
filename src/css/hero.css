@@ -149,12 +149,12 @@
 .hero-btn:focus:after {
   background-color: var(--light-theme);
   color: var(--main-theme);
-  transition: color, background-color 200ms cubic-bezier(0.42, 0, 1, 1);
+  transition: background-color 300ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
 }
 
 .hero-btn:hover:before {
   opacity: 1;
-  transition: color, background-color 200ms cubic-bezier(0.42, 0, 1, 1);
+  transition: background-color 300ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
 }
 
 .hero-btn:after {
@@ -235,7 +235,7 @@
 .hero-btn-list-btn:focus {
   background-color: #fff;
   color: var(--text-icons);
-  transition: color, background-color 200ms cubic-bezier(0.42, 0, 1, 1);
+  transition: background-color 300ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
 }
 @media screen and (min-width: 375px) {
   .hero-title {
