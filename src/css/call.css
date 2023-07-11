@@ -1,0 +1,164 @@
+.recall {
+  padding-bottom: 80px;
+}
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.recall-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px 77px;
+}
+
+.recall-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recall-title {
+  margin-bottom: 20px;
+  max-width: 320px;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.recall-text {
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.recall-form {
+  width: 260px;
+  position: relative;
+}
+
+.recall-input {
+  padding: 0 24px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid rgba(20, 20, 20, 0.3);
+  background: transparent;
+  color: var(--text-icons);
+  outline: none;
+}
+
+.recall-input:focus {
+  border-color: var(--main-theme);
+}
+.recall-input:hover {
+  border-color: var(--btn);
+}
+
+.recall-input::placeholder {
+  color: #c1bdbd;
+}
+
+.recall-submit-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px 35px;
+  height: 50px;
+  width: 105px;
+  border-radius: 100px;
+  background: var(--btn);
+  color: var(--white-theme);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  border: none;
+}
+
+.recall-submit-btn:is(:hover, :focus) {
+  background: var(--main-theme);
+}
+
+@media screen and (min-width: 375px) {
+  .recall-form {
+    width: 335px;
+  }
+
+  .recall-input {
+    padding-right: 115px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .recall.section {
+    padding-bottom: 100px;
+  }
+  .section {
+    padding: 50px 0;
+  }
+
+  .recall-container {
+    row-gap: 80px;
+  }
+
+  .recall-title {
+    margin: 0 auto 20px;
+    max-width: 524px;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+  }
+
+  .recall-text {
+    max-width: 499px;
+    font-size: 18px;
+  }
+
+  .recall-form {
+    width: 350px;
+  }
+
+  .recall-input {
+    padding-right: 105px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .recall.section {
+    padding-bottom: 124px;
+  }
+  .section {
+    padding: 62px 0;
+  }
+
+  .recall-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px 77px;
+  }
+
+  .recall-content-wrap {
+    align-items: baseline;
+  }
+
+  .recall-title {
+    margin-bottom: 40px;
+    max-width: 614px;
+    text-align: start;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+  }
+
+  .recall-text {
+    margin-bottom: 80px;
+    max-width: 523px;
+    text-align: start;
+  }
+}

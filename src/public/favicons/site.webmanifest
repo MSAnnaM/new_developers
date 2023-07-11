@@ -1,0 +1,19 @@
+{
+    "name": "brocoli",
+    "short_name": "brocoli",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#fc8a11",
+    "background_color": "#fc8a11",
+    "display": "standalone"
+}

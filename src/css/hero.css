@@ -249,17 +249,11 @@
   }
 
   .hero-img-main {
-    width: 422px;
-    height: 460px;
-    margin-bottom: 21px;
-    border-radius: 0 0 47% 36%;
-  }
-  .hero-img-div::before {
-    width: 341px;
-    height: 513px;
-  }
-  .hero-img-div {
     width: 515px;
     height: 423px;
+    margin-bottom: 21px;
+  }
+  .hero-img-div::before {
+    display: none;
   }
 }
