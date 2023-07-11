@@ -6,6 +6,7 @@
     menu: document.querySelector('[data-sidebar]'),
     additionalOpenModalBtn: document.querySelector('.vege-btn-order'),
     additionalOpenModalBtn2: document.querySelector('.hero-btn'),
+    menuOpenBtn: document.querySelector('.mobile-menu-open'),
   };
 
   refs.openModalBtn.addEventListener('click', toggleModal);
@@ -20,4 +21,12 @@
   refs.menu
     .querySelector('[data-modal-open]')
     .addEventListener('click', toggleModal);
+
+  const mobileMenuItems = document.querySelectorAll('.mobile-header-item a');
+
+  mobileMenuItems.forEach(item => {
+    item.addEventListener('click', () => {
+      refs.menu.classList.add('is-hidden');
+    });
+  });
 })();

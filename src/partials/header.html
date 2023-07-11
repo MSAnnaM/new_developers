@@ -2,13 +2,17 @@
   <div class="header">
     <nav class="header-nav">
       <ul class="header-list">
-        <li class="header-item"><a href="#section-works">How It Works</a></li>
         <li class="header-item">
-          <a href="#organic-vegetables">Vegetables</a>
+          <a href="#section-works" class="works-link">How It Works</a>
         </li>
-        <li class="header-item"><a href="#contacts">Contacts</a></li>
+        <li class="header-item">
+          <a href="#organic-vegetables" class="vegetables-link">Vegetables</a>
+        </li>
+        <li class="header-item">
+          <a href="#contacts" class="contacts-link">Contacts</a>
+        </li>
       </ul>
-      <a href="../index.html" class="header-icon"
+      <a href="/index.html" class="header-icon"
         ><svg class="header-svg" width="16" height="16">
           <use href="/img/sprite.svg#icon-logo"></use>
         </svg>
@@ -16,7 +20,7 @@
       >
     </nav>
 
-    <button type="button" class="header-btn" mobile-menu-open>
+    <button type="button" class="header-btn" data-sidebar-open>
       <svg class="header-modal-open" width="24" height="24">
         <use href="/img/sprite.svg#icon-modal-open"></use>
       </svg>
@@ -29,15 +33,15 @@
   </div>
 
   <!-- -------Mobile menu------->
-  <div class="mobile-menu is-hidden" mobile-modal>
+  <div class="mobile-menu is-hidden" data-sidebar>
     <div class="mobile-header">
-      <a href="../index.html" class="header-icon"
+      <a href="/index.html" class="header-icon"
         ><svg class="header-svg" width="16" height="16">
           <use href="/img/sprite.svg#icon-logo"></use>
         </svg>
         <span class="header-title">Veggieboost</span></a
       >
-      <button type="submit" class="close-mobile-btn" mobile-menu-close>
+      <button type="submit" class="close-mobile-btn" data-sidebar-close>
         <svg class="close-mobile-svg" width="24" height="24">
           <use href="/img/sprite.svg#icon-modal-close"></use>
         </svg>
@@ -49,12 +53,14 @@
         <nav>
           <ul class="mobile-header-list">
             <li class="mobile-header-item">
-              <a href="#section-works">How It Works</a>
+              <a href="#section-works" class="works-link">How It Works</a>
             </li>
             <li class="mobile-header-item">
-              <a href="#organic-vegetables">Vegetables</a>
+              <a href="#organic-vegetables" class="organic-link">Vegetables</a>
             </li>
-            <li class="mobile-header-item"><a href="#contacts">Contacts</a></li>
+            <li class="mobile-header-item">
+              <a href="#contacts" class="contacts-link">Contacts</a>
+            </li>
           </ul>
         </nav>
         <button type="button" class="mobile-shop" data-modal-open>
