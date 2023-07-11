@@ -1,6 +1,4 @@
-.footer-soc-item {
-    transition: background-color 250ms cubic-bezier(.42,0,1,1) ; 
-}
+
 
 .scale {
     display: inline-block;
@@ -8,12 +6,14 @@
 }
 
 .scale img {
-    transition: 1s;
+    transition: 0.5s;
     display: block;
 }
 
 .scale img:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
+
+
 
 
