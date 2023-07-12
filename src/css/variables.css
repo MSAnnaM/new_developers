@@ -6,7 +6,7 @@
   --btn: #fc8a11;
   --text-icons: #141414;
   --green-icon: #77ac63;
-  --hover: 300ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
+  --hover: 3000ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
 
   /* font-synthesis: none;
   text-rendering: optimizeLegibility;
