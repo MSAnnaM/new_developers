@@ -145,6 +145,7 @@ background: #77ac63;} */
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
+  transition: background-color var(--hover);
 }
 
 .vege-btn-order:before {
@@ -197,6 +198,7 @@ background: #77ac63;} */
   left: 0;
   top: 0;
   border-radius: 50%;
+  transition: background-color var(--hover);
 }
 
 @keyframes glowing {
