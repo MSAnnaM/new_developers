@@ -146,7 +146,8 @@
 
 .hero-btn:active:after,
 .hero-btn:hover:after,
-.hero-btn:focus:after {
+.hero-btn:focus:after,
+.hero-btn:hover {
   background-color: var(--light-theme);
   color: var(--main-theme);
   transition: var(--hover);
