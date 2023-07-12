@@ -113,6 +113,7 @@
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
+  transition: color var(--hover), background-color var(--hover);
 }
 .hero-btn:before {
   content: '';
@@ -150,7 +151,6 @@
 .hero-btn:hover {
   background-color: var(--light-theme);
   color: var(--main-theme);
-  transition: var(--hover);
 }
 
 .hero-btn:hover:before {
@@ -231,12 +231,12 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   background-color: transparent;
+  transition: color var(--hover), background-color var(--hover);
 }
 .hero-btn-list-btn:hover,
 .hero-btn-list-btn:focus {
   background-color: #fff;
   color: var(--text-icons);
-  transition: var(--hover);
 }
 @media screen and (min-width: 375px) {
   .hero-title {
