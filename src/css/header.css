@@ -188,17 +188,17 @@
 .mobile-menu {
   background-color: var(--main-theme);
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 5;
   top: 0;
   overflow: auto;
   left: 0;
   transform: translateX(100%);
-  transition: transform 3000ms ease-in;
+  transition: transform 250ms ease-in-out;
 }
-.mobile-menu.is-hidden {
-  transform: translateX(-100%);
+.mobile-menu.is-open {
+  transform: translateX(0);
 }
 .mobile-header {
   display: flex;
