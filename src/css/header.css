@@ -194,8 +194,12 @@
   top: 0;
   overflow: auto;
   left: 0;
+  transform: translateX(100%);
+  transition: transform 3000ms ease-in;
 }
-
+.mobile-menu.is-hidden {
+  transform: translateX(-100%);
+}
 .mobile-header {
   display: flex;
   align-items: center;
