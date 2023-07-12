@@ -173,10 +173,8 @@
 }
 
 .works-text {
-  display: flex;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
+  line-height: 1.3;
   width: 194px;
   height: 54px;
   align-items: center;
@@ -210,7 +208,7 @@
   .works-subtitle {
     font-size: 28px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1.14;
     width: 274px;
     margin: 0;
   }
@@ -227,11 +225,15 @@
   .works-subtitle {
     font-size: 40px;
     font-weight: 500;
-    line-height: 44px;
+    line-height: 1.1;
     width: 512px;
   }
 
   .works-text {
     width: 308px;
+  }
+
+  .works-subtext {
+    width: 166px;
   }
 }
