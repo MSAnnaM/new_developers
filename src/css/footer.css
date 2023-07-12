@@ -92,10 +92,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
 
   .footer-container {
     display: flex;
@@ -170,12 +166,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    padding-left: 16px;
-  }
 
   .footer-container {
-    justify-content: inherit;
+    justify-content: space-between;
 
     gap: 116px;
   }
