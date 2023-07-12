@@ -110,24 +110,39 @@
     width: 173px;
   }
 
+  .footer-text {
+    transition: transform var(--hover), color var(--hover);
+  }
   .logo-link:focus .footer-text {
     transform: scale(1.1);
     color: var(--green-icon);
   }
 
+  .logo-icon {
+    transition: fill var(--hover), transform var(--hover);
+  }
   .logo-link:focus .logo-icon {
     fill: var(--green-icon);
     transform: rotate(45deg);
   }
 
+  .footer-link {
+    transition: color var(--hover);
+  }
   .footer-link:focus {
     color: var(--green-icon);
   }
 
+  .footer-soc-item {
+    transition: border var(--hover);
+  }
   .footer-soc-item:focus {
     border: 1px solid var(--green-icon);
   }
 
+  .soc-icon{
+    transition: fill var(--hover);
+  }
   .footer-soc-item:focus .soc-icon {
     fill: var(--green-icon);
   }
@@ -135,7 +150,9 @@
 .tel-link:focus {
     color: var(--green-icon);
   }
-
+.footer-sub-text, .tel-link {
+    transition: color var(--hover);
+  }
   .footer-sub-text:focus {
     color: var(--green-icon);
   }
@@ -154,40 +171,56 @@
     gap: 166px;
   }
 
+  .footer-text {
+    transition: transform var(--hover), color var(--hover);
+  }
   .logo-link:hover .footer-text,
   .logo-link:focus .footer-text {
     transform: scale(1.1);
     color: var(--green-icon);
   }
 
+  .logo-icon {
+    transition: fill var(--hover), transform var(--hover);
+  }
   .logo-link:hover .logo-icon,
   .logo-link:focus .logo-icon {
     fill: var(--green-icon);
     transform: rotate(45deg);
   }
 
+  .footer-link {
+    transition: color var(--hover);
+  }
   .footer-link:hover,
   .footer-link:focus {
     color: var(--green-icon);
   }
 
+  .footer-soc-item {
+    transition: border var(--hover);
+  }
   .footer-soc-item:hover,
   .footer-soc-item:focus {
     border: 1px solid var(--green-icon);
   }
 
+  .soc-icon{
+    transition: fill var(--hover);
+  }
   .footer-soc-item:hover .soc-icon,
   .footer-soc-item:focus .soc-icon {
     fill: var(--green-icon);
   }
 
-  .tel-link:hover,
-  .tel-link:focus {
+  .tel-link:hover {
     color: var(--green-icon);
   }
 
-  .footer-sub-text:hover,
-  .footer-sub-text:focus {
+  .footer-sub-text, .tel-link {
+    transition: color var(--hover);
+  }
+  .footer-sub-text:hover {
     color: var(--green-icon);
   }
 }
