@@ -84,6 +84,31 @@
 .recall-submit-btn:is(:hover, :focus) {
   background: var(--main-theme);
 }
+.picture-positione {
+  display: flex;
+  background: var(--support-theme);
+  background-image: radial-gradient(
+    circle at 30px 20px,
+    rgba(207, 207, 194, 0.69) 3px,
+    transparent 0
+  );
+  background-size: 45px 39px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  border-radius: 60px;
+  position: relative;
+}
+
+.wrap-img {
+  display: flex;
+  justify-content: center;
+}
+.recall-input:hover {
+  /* Новая картинка при наведении */
+  background-image: url(../img/works/img-dasc-girl.png);
+  /* Другие свойства стиля */
+  /* ... */
+}
 
 @media screen and (min-width: 375px) {
   .recall-form {
@@ -127,9 +152,29 @@
   .recall-input {
     padding-right: 105px;
   }
+  .wrap-img {
+    display: flex;
+    justify-content: center;
+  }
+  .picture-positione {
+    width: 704px;
+    height: 463px;
+    justify-content: center;
+    margin-top: 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .wrap-img {
+    margin-top: unset;
+  }
+
+  .picture-positione {
+    width: 525px;
+    height: 536px;
+    margin-top: unset;
+  }
+
   .recall.section {
     padding-bottom: 124px;
   }
