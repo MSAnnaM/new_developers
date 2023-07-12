@@ -20,6 +20,16 @@
   flex-shrink: 0;
 }
 
+.modal {
+  transform: translate(-50%, -50%) scalex(1);
+  transition: transform 300ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scalex(0);
+}
+
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
@@ -40,6 +50,7 @@
     0px 0px 223px 0px rgba(0, 0, 0, 0.05);
   padding: 20px 20px 20px 20px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .icon-button {
