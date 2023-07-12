@@ -15,24 +15,21 @@
                 <button type="submit" class="recall-submit-btn">Recall</button>
             </form>
         </div>
-        <div class="recall-image-wrap">
-            <picture>
-                <source srcset="
-              /img/img.call/img-mob.jpg  1x,
-            /img/img.call/img-mob-2x.jpg 2x
-          " media="(max-width:768px)" type="image/jpeg" />
+        <div class="wrap-img">
+            <picture class="picture-positione">
+                <source media="(max-width: 1280px)"
+                    srcset="/img/img.call/img-desc.png 1x, /img/img.call/img-desc-2x.png 2x" />
 
-                <source srcset="
-            /img/img.call/img-tab.jpg     1x,
-            /img/img.call/img-tab-2x.jpg  2x
-          " media="(max-width:1280px)" type="image/jpeg" />
+                <source media="(min-width: 1280px)"
+                    srcset="/img/img.call/img-desc.png 1x, /img/img.call/img-desc-2x.png 2x" />
 
-                <source srcset="
-            /img/img.call/img-desc.jpg   1x,
-            /img/img.call/img-desc-2x.jpg 2x
-          " media="(min-width:1280px)" type="image/jpeg" />
+                <source srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
+                    media="(min-width: 768px)" />
 
-                <img src="/img/img.call/img-mob.jpg" alt="Model" min-width="335" min-height="357" />
+                <source srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
+                    media="(max-width: 767px)" />
+
+                <img src="/img/img.call/img-tab.png" alt="photo-girl" min-width="335" min-height="357" />
             </picture>
         </div>
     </div>
