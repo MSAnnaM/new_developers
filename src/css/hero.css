@@ -1,9 +1,9 @@
 .hero-section {
+  padding-top: 48px;
+  padding-bottom: 20px;
   background-color: var(--main-theme);
 }
 .hero-div {
-  padding-top: 48px;
-  padding-bottom: 20px;
 }
 .hero-list {
   display: flex;
