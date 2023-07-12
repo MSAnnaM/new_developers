@@ -256,6 +256,9 @@
     padding-top: 64px;
     padding-bottom: 32px;
   }
+  .hero-item:not(:first-child) {
+    margin-left: -20px;
+  }
   .hero-list {
     margin-bottom: 16px;
   }
@@ -313,6 +316,9 @@
 @media screen and (min-width: 1280px) {
   .hero-div {
     padding-top: 133px;
+  }
+  .hero-item:not(:first-child) {
+    margin-left: -25px;
   }
   .hero-list-img {
     width: 66px;
