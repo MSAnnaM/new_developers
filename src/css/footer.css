@@ -92,13 +92,12 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: normal;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   .footer-contacts {
@@ -167,9 +166,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .footer-container {
-    justify-content: inherit;
-    padding-left: 16px;
+    justify-content: space-between;
+
     gap: 116px;
   }
 
