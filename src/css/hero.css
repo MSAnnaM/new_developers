@@ -4,6 +4,8 @@
   background-color: var(--main-theme);
 }
 .hero-div {
+  padding-top: 48px;
+  padding-bottom: 20px;
 }
 .hero-list {
   display: flex;
@@ -252,10 +254,11 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .hero-div {
+  .hero-section {
     padding-top: 64px;
     padding-bottom: 32px;
   }
+
   .hero-item:not(:first-child) {
     margin-left: -20px;
   }
@@ -314,9 +317,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .hero-div {
+  .hero-section {
     padding-top: 133px;
   }
+
   .hero-item:not(:first-child) {
     margin-left: -25px;
   }
