@@ -10,7 +10,7 @@
 
             <form class="recall-form">
                 <input id="recall-phone" class="recall-input" type="tel"
-                    pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?"
+                    pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                     title="Phone number in format +38 XXX XXX XX XX" placeholder="+380 ()" required minlength="13"
                     maxlength="13" />
                 <button type="submit" class="recall-submit-btn">Recall</button>
