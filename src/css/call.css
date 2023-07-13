@@ -1,4 +1,4 @@
-.section {
+.recall {
   padding-top: 40px;
   padding-bottom: 80px;
 }
@@ -126,7 +126,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section {
+  .recall {
     padding-top: 50px;
     padding-bottom: 173px;
   }
@@ -182,7 +182,7 @@
   .recall.section {
     padding-bottom: 124px;
   }
-  .section {
+  .recall {
     padding: 62px 0;
   }
 
