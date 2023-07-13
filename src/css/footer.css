@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.img-nav {
+  display: contents;
+}
+
 .logo-icon {
   fill: var(--text-icons);
 }
@@ -99,6 +103,10 @@
     align-items: normal;
   }
 
+  .img-nav {
+    display: block;
+  }
+
   .footer-contacts {
     align-items: flex-start;
   }
@@ -168,6 +176,7 @@
   .footer-container {
     justify-content: space-between;
     gap: 116px;
+    align-items: center;
   }
 
   .img-nav {
