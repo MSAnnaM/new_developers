@@ -1,8 +1,7 @@
 .container-works {
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 40px;
 }
-
 
 .easy-steps {
   padding-bottom: 80px;
@@ -45,8 +44,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .easy-steps {
+  .container-works {
     padding-top: 100px;
+    padding-bottom: 50px;
   }
 
   .h-img {
@@ -84,8 +84,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .easy-steps {
+  .container-works {
     padding-top: 124px;
+    padding-bottom: 62px;
   }
 
   .h-img {
@@ -108,7 +109,8 @@
   }
 
   .easy-subtext {
-    max-width: ;width: 353px;
+    max-width: ;
+    width: 353px;
   }
 
   .easy-ssubtext {

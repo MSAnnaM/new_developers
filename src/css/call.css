@@ -179,11 +179,9 @@
     margin-top: unset;
   }
 
-  .recall.section {
-    padding-bottom: 124px;
-  }
   .recall {
-    padding: 62px 0;
+    padding-top: 62px;
+    padding-bottom: 124px;
   }
 
   .recall-container {
