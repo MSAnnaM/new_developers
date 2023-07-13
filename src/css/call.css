@@ -65,7 +65,9 @@
 .recall-input::placeholder {
   color: #c1bdbd;
 }
-
+.recall-input:invalid {
+  border: 1px solid #c1bdbd;
+}
 .recall-submit-btn {
   position: absolute;
   right: 0;
@@ -86,6 +88,7 @@
 .recall-submit-btn:is(:hover, :focus) {
   background: var(--main-theme);
 }
+
 .picture-positione {
   display: flex;
   background: var(--support-theme);

@@ -11,7 +11,8 @@
             <form class="recall-form">
                 <input id="recall-phone" class="recall-input" type="tel"
                     pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?"
-                    title="Phone number in format +38 XXX XXX XX XX" placeholder="+380 ()" required />
+                    title="Phone number in format +38 XXX XXX XX XX" placeholder="+380 ()" required minlength="13"
+                    maxlength="13" />
                 <button type="submit" class="recall-submit-btn">Recall</button>
             </form>
         </div>
@@ -29,7 +30,7 @@
                 <source srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
                     media="(max-width: 767px)" />
 
-                <img src="/img/img.call/img-tab.png" alt="photo-girl" min-width="335" min-height="357" />
+                <img src="/img/img.call/img-tab.png" alt="photo-girl" />
             </picture>
         </div>
     </div>
