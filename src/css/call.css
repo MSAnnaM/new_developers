@@ -211,3 +211,10 @@
     text-align: start;
   }
 }
+
+.recall-input:hover {
+  border-color: var(--btn);
+}
+.recall-input:focus {
+  border-color: var(--main-theme);
+}
