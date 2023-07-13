@@ -1,37 +1,58 @@
-<section class="recall section">
-    <div class="recall-container container">
-        <div class="recall-content-wrap">
-            <h2 class="recall-title">Fresh Harvest Box has got you covered</h2>
-            <p class="recall-text">
-                Our boxes are packed with delicious, nutritious vegetables, perfect for
-                anyone looking to eat healthier or support local farmers. Order your box
-                today and start enjoying the best that nature has to offer!
-            </p>
+<section class="recall">
+  <div class="recall-container container">
+    <div class="recall-content-wrap">
+      <h2 class="recall-title">Fresh Harvest Box has got you covered</h2>
+      <p class="recall-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
 
-            <form class="recall-form">
-                <input id="recall-phone" class="recall-input" type="tel"
-                    pattern="/^\+\d{1,3}\s?\(\d{1,}\)\s?\d{1,}[-\s]?\d{1,}[-\s]?\d{1,}$/"
-                    title="Phone number in format +38 XXX XXX XX XX" placeholder="+380 ()" required minlength="13"
-                    maxlength="13" />
-                <button type="submit" class="recall-submit-btn">Recall</button>
-            </form>
-        </div>
-        <div class="wrap-img">
-            <picture class="picture-positione">
-                <source media="(max-width: 1280px)"
-                    srcset="/img/img.call/img-desc.png 1x, /img/img.call/img-desc-2x.png 2x" />
-
-                <source media="(min-width: 1280px)"
-                    srcset="/img/img.call/img-desc.png 1x, /img/img.call/img-desc-2x.png 2x" />
-
-                <source srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
-                    media="(min-width: 768px)" />
-
-                <source srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
-                    media="(max-width: 767px)" />
-
-                <img src="/img/img.call/img-tab.png" alt="photo-girl" />
-            </picture>
-        </div>
+      <form class="recall-form">
+        <input
+          id="recall-phone"
+          class="recall-input"
+          type="tel"
+          pattern="/^\+\d{1,3}\s?\(\d{1,}\)\s?\d{1,}[-\s]?\d{1,}[-\s]?\d{1,}$/"
+          title="Phone number in format +38 XXX XXX XX XX"
+          placeholder="+380 ()"
+          required
+          minlength="13"
+          maxlength="13"
+        />
+        <button type="submit" class="recall-submit-btn">Recall</button>
+      </form>
     </div>
+    <div class="wrap-img">
+      <picture class="picture-positione">
+        <source
+          media="(max-width: 1280px)"
+          srcset="
+            /img/img.call/img-desc.png    1x,
+            /img/img.call/img-desc-2x.png 2x
+          "
+        />
+
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            /img/img.call/img-desc.png    1x,
+            /img/img.call/img-desc-2x.png 2x
+          "
+        />
+
+        <source
+          srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="/img/img.call/img-tab.png 1x, /img/img.call/img-tab-2x.png 2x"
+          media="(max-width: 767px)"
+        />
+
+        <img src="/img/img.call/img-tab.png" alt="photo-girl" />
+      </picture>
+    </div>
+  </div>
 </section>
