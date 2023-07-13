@@ -168,15 +168,19 @@
 
 @media screen and (min-width: 1280px) {
   .footer-container {
-    justify-content: inherit;
-    padding-left: 16px;
+    justify-content: space-between;
     gap: 116px;
   }
 
   .img-nav {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 166px;
+  }
+
+  .footer-nav {
+    height: 18px;
   }
 
   .footer-text {
